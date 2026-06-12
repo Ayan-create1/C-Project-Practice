@@ -7,9 +7,12 @@ int main(){
     string name;
     int age;
 
+    //if we switch to age and then name, a whitespace will be shown as name because there is a hidden \n embedded
     cout << "What's your full name?: ";
     //cin >> name;
-    getline(cin, name);
+
+    //ws takes care of any whitespace
+    getline(cin >> ws, name);
 
     cout << "What's your age?: ";
     cin >> age;
