@@ -11,7 +11,6 @@ namespace second{
 int main(){
     //namespaces help prevent naming conflicts since each variable needs a unique name
     using namespace first;
-
     //two colons = scope resolution operator
     std::cout<<x;
     std::cout<< first::x;

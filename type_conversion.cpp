@@ -19,7 +19,7 @@ int main(){
     cout <<x << '\n' <<y << '\n' << "-----" <<'\n';
 
 
-    //example program mini
+    //EXAMPLE program mini
     int correct = 8;
     int questions = 10;
     //this gets truncated to 0 because we first divide two integers which results in 0 then multiply it
