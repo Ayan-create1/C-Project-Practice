@@ -74,8 +74,7 @@ int main(){
                 cout << "You failed";
                 break;
             default:
-                cout << "Please enter a letter grade";
-            
+                cout << "Please enter a letter grade";    
         }
     }
     return 0;
