@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    //do while loop = do some block of code first, then repeat again if condition is true
+    //do while loop = do some block of code first, then repeat again if condition is true -> do first, then execute the while block
     int number;
 
     /*
