@@ -129,6 +129,7 @@ If tune is a well-formed tune but is not a playable tune, badTick is set to the 
         if (tune.at(i) == '/')
         {
             result += ' ';
+            tick++;
             i++;
             continue;
         }
