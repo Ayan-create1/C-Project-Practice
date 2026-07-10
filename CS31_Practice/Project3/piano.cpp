@@ -126,6 +126,8 @@ If tune is a well-formed tune but is not a playable tune, badTick is set to the 
     //need to figure out the ticks... 
     while(i < tune.size()){
         bool bracket = false;
+        bool first = false;
+
         if (tune.at(i) == '/')
         {
             result += ' ';
@@ -176,12 +178,12 @@ int main(){
     string instrs = "";
     int badt = -99;
 
-    cout << translateTune("G3B3DD5//G/A/A3B/C5/B3D5//G//G//CE5//C5/D5/E5/F#5/B3G5//G//G/", instrs, badt);
+    cout << translateTune("//", instrs, badt);
     return 0;
 }
 
 
-
+//G3B3DD5//G/A/A3B/C5/B3D5//G//G//CE5//C5/D5/E5/F#5/B3G5//G//G/
 
 
 //check are there valid notes?
