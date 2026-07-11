@@ -21,7 +21,7 @@ int main(){
         cout << "Choice: ";
 
         cin >> choice; 
-        //resets cin state
+        //resets cin state --> basically says forget that the last read failed
         cin.clear();
         //empties the input buffer
         fflush(stdin);
